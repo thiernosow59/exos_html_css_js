@@ -1,0 +1,24 @@
+body{
+    background-color:grey;
+}
+
+.rotation{
+    display: flex;
+    justify-content:flex-end;
+    align-content:flex-start;
+    flex-direction:column;
+    align-items: center;
+    margin-left: 200px;
+    
+}
+.contener{
+    display: flex;
+    justify-content: flex-start;
+}
+
+[src]{
+    border: 3px solid rgb(0, 217, 255);
+}
+[src]:hover{
+    border-color: rgb(255, 0, 212);
+}
